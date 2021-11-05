@@ -1,25 +1,10 @@
-import React from "react";
-import ReactDOM from "react-dom";
+import "./App.css";
 
-function App()
-{
-  return 
-  (
+export default function App() {
+  return (
     <div className="App">
       <h1>Hello World!</h1>
+      <h2>This is all a test!</h2>
     </div>
   );
 }
-
-export default App;
-
-/*
-The examples in this tutorial are created using the
-create-react-app.
-
-Install the create-react-app,
-and you will be able to run the same examples on your computer.
-
-In this example we create a component called 'Hello'.
-The component is rendered in a container called 'root'.
-*/
