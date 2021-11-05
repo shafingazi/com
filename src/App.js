@@ -1,25 +1,19 @@
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import ReactDOM from "react-dom";
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+function Hello(props) {
+  return <h1>Hello World!</h1>;
 }
 
-export default App;
+ReactDOM.render(<Hello />, document.getElementById("root"));
+
+/*
+The examples in this tutorial are created using the
+create-react-app.
+
+Install the create-react-app,
+and you will be able to run the same examples on your computer.
+
+In this example we create a component called 'Hello'.
+The component is rendered in a container called 'root'.
+*/
