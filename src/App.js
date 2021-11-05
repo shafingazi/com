@@ -1,11 +1,15 @@
 import React from "react";
 import ReactDOM from "react-dom";
 
-function Hello(props) {
-  return <h1>Hello World!</h1>;
+function App()
+{
+  return 
+  (
+    <h1>Hello World!</h1>
+  );
 }
 
-ReactDOM.render(<Hello />, document.getElementById("root"));
+export default App;
 
 /*
 The examples in this tutorial are created using the
