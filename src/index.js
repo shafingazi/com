@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import ReactDOM from "react-dom";
-import * as THREE from 'https://cdn.skypack.dev/three@0.134.0';
+import * as THREE from "three";
 class App extends Component {
   componentDidMount() {
     // === THREE.JS CODE START ===
