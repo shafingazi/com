@@ -10,6 +10,10 @@ class App extends Component {
     // document.body.appendChild( renderer.domElement );
     // use ref as a mount point of the Three.js scene instead of the document.body
     this.mount.appendChild( renderer.domElement );
+    
+    document.body.style.margin = '0px';
+    document.body.style.overflowY = 'hidden';
+    
     var geometry = new THREE.BoxGeometry( 1, 1, 1 );
     var material = new THREE.MeshBasicMaterial( { color: 0x00ff00 } );
     var cube = new THREE.Mesh( geometry, material );
